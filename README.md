@@ -1,5 +1,4 @@
 # Xen-on-Nvidia-Orin
- Run Xen hypervisor on Nvidia chips
 
  目标：同时在AGX Orin上运行Xen和FreeRTOS
  

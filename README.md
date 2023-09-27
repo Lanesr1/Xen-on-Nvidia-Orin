@@ -26,6 +26,12 @@ Second step: Xen boots normally, dom0 has been loaded, but kernel didn't startup
 
 第三步：内核已启动，途中报错，开始慢慢排错。
 
-Third Step: Kernel has started and some errors showup. Dealing with that slowly.
+Third step: Kernel has started and some errors showup. Dealing with that slowly.
  
 ![本地路径](./pic/3.png) 
+
+第四步：继续向下走了1s多。
+
+Fourth step: Go on for one more sec.
+
+![本地路径](./pic/4.png) 

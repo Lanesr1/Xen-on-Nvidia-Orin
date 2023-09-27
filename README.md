@@ -1,8 +1,8 @@
 # Xen-on-Nvidia-Orin
 
- 目标：同时在AGX Orin的cortex-A78AE上运行Xen和FreeRTOS
+ 目标：同时在AGX Orin的cortex-A78AE内核上运行Xen和FreeRTOS
  
- Target: Run both Xen and FreeRTOS on AGX Orin's cortex-A78AE
+ Target: Run both Xen and FreeRTOS on AGX Orin's cortex-A78AE cores.
 
  硬件平台：Nvidia AGX Orin 32GB
  

@@ -35,3 +35,9 @@ Third step: Kernel has started and some errors showup. Dealing with that slowly.
 Fourth step: Go on for one more sec.
 
 ![本地路径](./pic/4.png) 
+
+第五步：修复了前面的一些问题。
+
+Fifth step: Fixed some previous issues. 
+
+![本地路径](./pic/5.png) 

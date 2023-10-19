@@ -41,3 +41,9 @@ Fourth step: Go on for one more sec.
 Fifth step: Fixed some previous issues. 
 
 ![本地路径](./pic/5.png) 
+
+第六步：屏蔽了一些东西。
+
+Sixth step: Turn off something.
+
+![本地路径](./pic/6.png) 

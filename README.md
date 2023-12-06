@@ -8,9 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：20%
+ 进度：25%
  
- Progress: 20%
+ Progress: 25%
+
+ 近况：卡在EMMC和NVME硬盘的识别问题上(20231206)
+
+ Current status: Stucking on EMMC and NVME hard drive identification issues(20231206)
 
 第一步：未知位置反复重启。
 

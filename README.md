@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：25%
+ 进度：30%
  
- Progress: 25%
+ Progress: 30%
 
- 近况：卡在EMMC和NVME硬盘的识别问题上(20231206)
+ 近况：操作系统已一启动，但还有一些问题。
 
- Current status: Stucking on EMMC and NVME SSD identification issues(20231206)
+ Current status: System has started up, but still has some isuses. (20231218)
 
 第一步：未知位置反复重启。
 
@@ -51,3 +51,7 @@ Fifth step: Fixed some previous issues.
 Sixth step: Turn off something.
 
 ![本地路径](./pic/6.png) 
+
+第七步：终于识别了EMMC，并启动了Ubuntu。
+
+Seventh step: Finally found EMMC and started up Ubuntu.

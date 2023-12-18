@@ -55,3 +55,5 @@ Sixth step: Turn off something.
 第七步：终于识别了EMMC，并启动了Ubuntu。
 
 Seventh step: Finally found EMMC and started up Ubuntu.
+
+![本地路径](./pic/7.png) 

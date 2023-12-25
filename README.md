@@ -8,13 +8,29 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：30%
+ 进度：35%
  
- Progress: 30%
+ Progress: 35%
 
- 近况：操作系统已一启动，但还有一些问题。
+ 近况：操作系统工作正常，但还有一些问题。
 
- Current status: System has started up, but still has some isuses. (20231218)
+ Current status: System works well, but there are still some issues. (20231225)
+
+ 问题列表：
+ 1、wdt、qspi启动报错
+ 2、eth0初始化错误
+ 3、thermal zone识别错误
+ 4、nvidia-modeset无法打开GPU
+ 5、设置dom0_max_vcpus为多核时，tegra-cache报错
+ 6、pcie(包括nvme和wifi)报错
+
+ Isuses list:
+ 1. wdt and qspi report error when system is starting up.
+ 2. eth0 initialization failed.
+ 3. failed to build thermal zone.
+ 4. GPU can't be opened.
+ 5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 
+ 6. pcie(include nvme and wifi) reports error.
 
 第一步：未知位置反复重启。
 
@@ -57,3 +73,9 @@ Sixth step: Turn off something.
 Seventh step: Finally found EMMC and started up Ubuntu.
 
 ![本地路径](./pic/7.png) 
+
+第八步：系统工作正常，但还有一些问题。
+
+Eighth step: System works well, but there are some isuses.
+
+![本地路径](./pic/8.png) 

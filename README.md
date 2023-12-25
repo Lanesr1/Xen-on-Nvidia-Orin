@@ -17,6 +17,7 @@
  Current status: System works well, but there are still some issues. (20231225)
 
  问题列表：
+ 
  1、wdt、qspi启动报错
 
  2、eth0初始化错误
@@ -26,7 +27,7 @@
  4、nvidia-modeset无法打开GPU
 
  5、设置dom0_max_vcpus为多核时，tegra-cache报错
- 
+
  6、pcie(包括nvme和wifi)报错
 
  Isuses list:

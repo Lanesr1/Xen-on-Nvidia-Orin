@@ -12,15 +12,15 @@
  
  Progress: 35%
 
- 近况：操作系统工作正常，但还有一些问题。
+ 近况：解决了eth0问题
 
- Current status: System works well, but there are still some issues. (20231225)
+ Current status: Fixed eth0 isuse. (20240103)
 
  问题列表：
  
  1、wdt、qspi启动报错
 
- 2、eth0初始化错误
+ 2、～～eth0初始化错误
 
  3、thermal zone识别错误
 
@@ -32,7 +32,7 @@
 
  Isuses list:
  1. wdt and qspi report error when system is starting up.
- 2. eth0 initialization failed.
+ 2. ～～eth0 initialization failed.
  3. failed to build thermal zone.
  4. GPU can't be opened.
  5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 

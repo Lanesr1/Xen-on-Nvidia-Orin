@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：35%
+ 进度：40%
  
- Progress: 35%
+ Progress: 40%
 
- 近况：解决了eth0问题
+ 近况：解决了eth0问题。GPU可识别到，但是我觉得会有一些跟pcie有关的问题。
 
- Current status: Fixed eth0 isuse. (20240103)
+ Current status: Fixed eth0 isuse. GPU could be found, but I think there are some pcie isuses of GPU.(20240103)
 
  问题列表：
  
@@ -24,7 +24,7 @@
 
  3、thermal zone识别错误
 
- 4、nvidia-modeset无法打开GPU
+ ~~4、nvidia-modeset无法打开GPU~~
 
  5、设置dom0_max_vcpus为多核时，tegra-cache报错
 
@@ -32,11 +32,9 @@
 
  Isuses list:
  1. wdt and qspi report error when system is starting up.
-
- ~~2. eth0 initialization failed.~~
- 
+ 2. ~~eth0 initialization failed.~~
  3. failed to build thermal zone.
- 4. GPU can't be opened.
+ 4. ~~GPU can't be opened.~~
  5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 
  6. pcie(include nvme and wifi) reports error.
 
@@ -87,3 +85,9 @@ Seventh step: Finally found EMMC and started up Ubuntu.
 Eighth step: System works well, but there are some isuses.
 
 ![本地路径](./pic/8.png) 
+
+第九步：解决了网卡问题，GPU也已经识别到。
+
+Nineth step: Fixed ethernet isuse. GPU could be found.
+
+![本地路径](./pic/9.png) 

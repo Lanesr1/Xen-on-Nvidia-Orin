@@ -32,8 +32,9 @@
 
  Isuses list:
  1. wdt and qspi report error when system is starting up.
- 
+
  ~~2. eth0 initialization failed.~~
+ 
  3. failed to build thermal zone.
  4. GPU can't be opened.
  5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 

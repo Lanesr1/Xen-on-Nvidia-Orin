@@ -88,6 +88,6 @@ Eighth step: System works well, but there are some isuses.
 
 第九步：解决了网卡问题，GPU也已经识别到。
 
-Nineth step: Fixed ethernet isuse. GPU could be found.
+Ninth step: Fixed ethernet isuse. GPU could be found.
 
 ![本地路径](./pic/9.png) 

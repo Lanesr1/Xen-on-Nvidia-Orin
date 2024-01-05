@@ -12,9 +12,9 @@
  
  Progress: 40%
 
- 近况：解决了eth0问题。GPU可识别到，但是我觉得会有一些跟pcie有关的问题。
+ 近况：安装Jetpack并运行了一些例程。发现了一些新问题。(20240105)
 
- Current status: Fixed eth0 isuse. GPU could be found, but I think there are some pcie isuses of GPU.(20240103)
+ Current status: Install Jetpack and run some demos. Found some new isuses.(20240105)
 
  问题列表：
  
@@ -30,6 +30,10 @@
 
  6、pcie(包括nvme和wifi)报错
 
+ 7、温度传感器缺失
+
+ 8、cpufreq未工作
+
  Isuses list:
  1. wdt and qspi report error when system is starting up.
  2. ~~eth0 initialization failed.~~
@@ -37,6 +41,9 @@
  4. ~~GPU can't be opened.~~
  5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 
  6. pcie(include nvme and wifi) reports error.
+ 7. temperature sensors are not found
+ 8. cpufreq doesn't work
+
 
 第一步：未知位置反复重启。
 
@@ -91,3 +98,9 @@ Eighth step: System works well, but there are some isuses.
 Ninth step: Fixed ethernet isuse. GPU could be found.
 
 ![本地路径](./pic/9.png) 
+
+第十步：安装了Jetpack，并测试了mnistCUDNN和sample_cudla例程
+
+Tenth step: Installed Jetpack. Tested mnistCUDNN and sample_cudla demos.
+
+![本地路径](./pic/10.png) 

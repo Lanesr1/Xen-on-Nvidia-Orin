@@ -1,0 +1,21 @@
+&&&& RUNNING TensorRT.sample_cudla [TensorRT v8502] # ./sample_cudla
+[01/05/2024-11:14:00] [I] [TRT] [MemUsageChange] Init CUDA: CPU +221, GPU +0, now: CPU 249, GPU 3607 (MiB)
+[01/05/2024-11:14:03] [I] [TRT] [MemUsageChange] Init builder kernel library: CPU +302, GPU +309, now: CPU 574, GPU 3940 (MiB)
+[01/05/2024-11:14:03] [I] [TRT] ---------- Layers Running on DLA ----------
+[01/05/2024-11:14:03] [I] [TRT] [DlaLayer] {ForeignNode[(Unnamed Layer* 0) [ElementWise]]}
+[01/05/2024-11:14:03] [I] [TRT] ---------- Layers Running on GPU ----------
+[01/05/2024-11:14:04] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +534, GPU +533, now: CPU 1108, GPU 4474 (MiB)
+[01/05/2024-11:14:05] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +82, GPU +119, now: CPU 1190, GPU 4593 (MiB)
+[01/05/2024-11:14:05] [I] [TRT] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[01/05/2024-11:14:05] [I] [TRT] Total Activation Memory: 24456970240
+[01/05/2024-11:14:05] [I] [TRT] Total Host Persistent Memory: 96
+[01/05/2024-11:14:05] [I] [TRT] Total Device Persistent Memory: 0
+[01/05/2024-11:14:05] [I] [TRT] Total Scratch Memory: 0
+[01/05/2024-11:14:05] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 0 MiB, GPU 0 MiB
+[01/05/2024-11:14:05] [I] [TRT] Total Activation Memory: 0
+[01/05/2024-11:14:05] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +0, now: CPU 0, GPU 0 (MiB)
+[01/05/2024-11:14:05] [I] Successfully loaded module
+[01/05/2024-11:14:05] [I] Submitted task to DLA successfully
+&&&& PASSED TensorRT.sample_cudla [TensorRT v8502] # ./sample_cudla
+[01/05/2024-11:14:05] [I] Successfully unloaded module
+[01/05/2024-11:14:05] [I] Device destroyed successfully

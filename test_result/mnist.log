@@ -1,0 +1,203 @@
+Executing: mnistCUDNN
+cudnnGetVersion() : 8600 , CUDNN_VERSION from cudnn.h : 8600 (8.6.0)
+Host compiler version : GCC 9.4.0
+
+There are 1 CUDA capable devices on your machine :
+device 0 : sms  8  Capabilities 8.7, SmClock 1300.0 Mhz, MemSize (Mb) 23323, MemClock 612.0 Mhz, Ecc=0, boardGroupID=0
+Using device 0
+
+Testing single precision
+Loading binary file data/conv1.bin
+Loading binary file data/conv1.bias.bin
+Loading binary file data/conv2.bin
+Loading binary file data/conv2.bias.bin
+Loading binary file data/ip1.bin
+Loading binary file data/ip1.bias.bin
+Loading binary file data/ip2.bin
+Loading binary file data/ip2.bias.bin
+Loading image data/one_28x28.pgm
+Performing forward propagation ...
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.056544 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.063232 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.082944 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.126688 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.128448 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.259968 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 128848 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 128000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.170176 time requiring 128848 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.233696 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.322944 time requiring 128000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.421792 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.547840 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.779424 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Resulting weights from Softmax:
+0.0000000 0.9999399 0.0000000 0.0000000 0.0000562 0.0000000 0.0000012 0.0000017 0.0000010 0.0000000 
+Loading image data/three_28x28.pgm
+Performing forward propagation ...
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.051104 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.051296 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.068544 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.122176 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.141664 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.264992 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 128848 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 128000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.128576 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.165984 time requiring 128848 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.237696 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.421728 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.744736 time requiring 128000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.779392 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Resulting weights from Softmax:
+0.0000000 0.0000000 0.0000000 0.9999288 0.0000000 0.0000711 0.0000000 0.0000000 0.0000000 0.0000000 
+Loading image data/five_28x28.pgm
+Performing forward propagation ...
+Resulting weights from Softmax:
+0.0000000 0.0000008 0.0000000 0.0000002 0.0000000 0.9999820 0.0000154 0.0000000 0.0000012 0.0000006 
+
+Result of classification: 1 3 5
+
+Test passed!
+
+Testing half precision (math in single precision)
+Loading binary file data/conv1.bin
+Loading binary file data/conv1.bias.bin
+Loading binary file data/conv2.bin
+Loading binary file data/conv2.bias.bin
+Loading binary file data/ip1.bin
+Loading binary file data/ip1.bias.bin
+Loading binary file data/ip2.bin
+Loading binary file data/ip2.bias.bin
+Loading image data/one_28x28.pgm
+Performing forward propagation ...
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.057632 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.062784 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.070464 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.182016 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.225664 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.260000 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 51584 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 64000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.235392 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.258304 time requiring 51584 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.269408 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.338880 time requiring 64000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.415168 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.779616 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Resulting weights from Softmax:
+0.0000001 1.0000000 0.0000001 0.0000000 0.0000563 0.0000001 0.0000012 0.0000017 0.0000010 0.0000001 
+Loading image data/three_28x28.pgm
+Performing forward propagation ...
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.060064 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.060832 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.061632 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.168320 time requiring 178432 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.195648 time requiring 184784 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.260832 time requiring 2057744 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: -1.000000 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: -1.000000 time requiring 51584 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: -1.000000 time requiring 64000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: -1.000000 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: -1.000000 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Testing cudnnFindConvolutionForwardAlgorithm ...
+^^^^ CUDNN_STATUS_SUCCESS for Algo 4: 0.236736 time requiring 2450080 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 1: 0.262656 time requiring 51584 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 0: 0.299840 time requiring 0 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 2: 0.376768 time requiring 64000 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 5: 0.420960 time requiring 4656640 memory
+^^^^ CUDNN_STATUS_SUCCESS for Algo 7: 0.782656 time requiring 1433120 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
+^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
+Resulting weights from Softmax:
+0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000714 0.0000000 0.0000000 0.0000000 0.0000000 
+Loading image data/five_28x28.pgm
+Performing forward propagation ...
+Resulting weights from Softmax:
+0.0000000 0.0000008 0.0000000 0.0000002 0.0000000 1.0000000 0.0000154 0.0000000 0.0000012 0.0000006 
+
+Result of classification: 1 3 5
+
+Test passed!

@@ -12,9 +12,9 @@
  
  Progress: 40%
 
- 近况：安装Jetpack并运行了一些例程。发现了一些新问题。(20240105)
+ 近况：thermal zone问题已找到，预计下周解决。(20240112)
 
- Current status: Install Jetpack and run some demos. Found some new isuses.(20240105)
+ Current status: thermal zone isuse is going to be fixed in next week.(20240112)
 
  问题列表：
  

@@ -12,9 +12,9 @@
  
  Progress: 40%
 
- 近况：修复了thermal zone问题。(20240118)
+ 近况：尝试修复cache问题。(20240229)
 
- Current status: Fixed thermal zone isuse.(20240118)
+ Current status: Trying to fix cache isuse.(20240229)
 
  问题列表：
  

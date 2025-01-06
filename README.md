@@ -12,9 +12,9 @@
  
  Progress: 40%
 
- 近况：尝试修复cache问题。(20240229)
+ 近况：尝试修复cache问题。(20250106)
 
- Current status: Trying to fix cache isuse.(20240229)
+ Current status: Trying to fix cache isuse.(20250106)
 
  问题列表：
  
@@ -28,7 +28,7 @@
 
  5、设置dom0_max_vcpus为多核时，tegra-cache报错
 
- 6、pcie(包括nvme和wifi)报错
+ ~~6、pcie(包括nvme和wifi)报错~~
 
  7、温度传感器缺失
 
@@ -40,7 +40,7 @@
  3. ~~failed to build thermal zone.~~
  4. ~~GPU can't be opened.~~
  5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 
- 6. pcie(include nvme and wifi) reports error.
+ 6. ~~pcie(include nvme and wifi) reports error.~~
  7. temperature sensors are not found
  8. cpufreq doesn't work
 
@@ -104,3 +104,9 @@ Ninth step: Fixed ethernet isuse. GPU could be found.
 Tenth step: Installed Jetpack. Tested mnistCUDNN and sample_cudla demos.
 
 ![本地路径](./pic/10.png) 
+
+第十一步：修复pcie问题，nvme ssd和wifi均正常。
+
+Eleventh step: Fixed pcie issuse, nvme ssd and wifi are working.
+
+![本地路径](./pic/11.png) 

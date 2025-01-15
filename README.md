@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：40%
+ 进度：50%
  
- Progress: 40%
+ Progress: 50%
 
- 近况：尝试修复cache问题。(20250106)
+ 近况：添加xen-tools。(20250115)
 
- Current status: Trying to fix cache isuse.(20250106)
+ Current status: Add xen-tools.(20250115)
 
  问题列表：
  
@@ -26,7 +26,7 @@
 
  ~~4、nvidia-modeset无法打开GPU~~
 
- 5、设置dom0_max_vcpus为多核时，tegra-cache报错
+ ~~5、设置dom0_max_vcpus为多核时，tegra-cache报错~~
 
  ~~6、pcie(包括nvme和wifi)报错~~
 
@@ -39,7 +39,7 @@
  2. ~~eth0 initialization failed.~~
  3. ~~failed to build thermal zone.~~
  4. ~~GPU can't be opened.~~
- 5. tegra-cache will report error when I set xen's dom0_max_vcpus more than one. 
+ 5. ~~tegra-cache will report error when I set xen's dom0_max_vcpus more than one. ~~
  6. ~~pcie(include nvme and wifi) reports error.~~
  7. temperature sensors are not found
  8. cpufreq doesn't work
@@ -110,3 +110,9 @@ Tenth step: Installed Jetpack. Tested mnistCUDNN and sample_cudla demos.
 Eleventh step: Fixed pcie issuse, nvme ssd and wifi are working.
 
 ![本地路径](./pic/11.png) 
+
+第十二步：修复dom0_max_vcpus数量设置问题。
+
+Eleventh step: Fixed dom0_max_vcpus number issue.
+
+![本地路径](./pic/12.png) 

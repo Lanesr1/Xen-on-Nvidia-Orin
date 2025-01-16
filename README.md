@@ -113,6 +113,6 @@ Eleventh step: Fixed pcie issuse, nvme ssd and wifi are working.
 
 第十二步：修复dom0_max_vcpus数量设置问题。
 
-Eleventh step: Fixed dom0_max_vcpus number issue.
+Twelfth step: Fixed dom0_max_vcpus number issue.
 
 ![本地路径](./pic/12.png) 

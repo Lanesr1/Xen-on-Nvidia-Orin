@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：50%
+ 进度：55%
  
- Progress: 50%
+ Progress: 55%
 
- 近况：添加xen-tools。(20250115)
+ 近况：寻找合适的RTOS系统，比如Freertos、threadX或者nutty。(20250117)
 
- Current status: Add xen-tools.(20250115)
+ Current status: Looking for suitable RTOS, ex. FreeRTOS, threadX or nutty.(20250117)
 
  问题列表：
  

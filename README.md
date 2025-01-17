@@ -12,9 +12,9 @@
  
  Progress: 55%
 
- 近况：寻找合适的RTOS系统，比如Freertos、threadX或者nutty。(20250117)
+ 近况：评估适合的RTOS系统，比如Freertos、threadX或者nutty。(20250117)
 
- Current status: Looking for suitable RTOS, ex. FreeRTOS, threadX or nutty.(20250117)
+ Current status: Evaluate suitable RTOS, ex. FreeRTOS, threadX or nutty.(20250117)
 
  问题列表：
  

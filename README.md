@@ -1,8 +1,8 @@
 # Xen-on-Nvidia-Orin
 
- 目标：同时在AGX Orin的cortex-A78AE内核上运行Xen和FreeRTOS
+ 目标：同时在AGX Orin的cortex-A78AE内核上运行Xen和FreeRTOS（或threadX）
  
- Target: Run both Xen and FreeRTOS on AGX Orin's cortex-A78AE cores.
+ Target: Run both Xen and FreeRTOS(or threadX) on AGX Orin's cortex-A78AE cores.
 
  硬件平台：Nvidia AGX Orin 32GB
  
@@ -12,9 +12,9 @@
  
  Progress: 55%
 
- 近况：评估适合的RTOS系统，比如Freertos、threadX或者nutty。(20250117)
+ 近况：搭建Freertos开发环境(20250119)
 
- Current status: Evaluate suitable RTOS, ex. FreeRTOS, threadX or nutty.(20250117)
+ Current status: Set up development environment for Freertos.(20250119)
 
  问题列表：
  

@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：55%
+ 进度：60%
  
- Progress: 55%
+ Progress: 60%
 
- 近况：搭建Freertos开发环境(20250119)
+ 近况：编译了一个threadX的demo，但xen-tools似乎工作不正常。(20250221)
 
- Current status: Set up development environment for Freertos.(20250119)
+ Current status: A demo of threadX was compiled, but xen-tools doesn't seem to be working properly.(20250221)
 
  问题列表：
  

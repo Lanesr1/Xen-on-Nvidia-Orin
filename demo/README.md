@@ -11,3 +11,7 @@ sudo cp * /boot/xen1
 3.将extlinux.conf拷贝到/boot/extlinux中
 
 sudo cp extlinux.conf /boot/extlinux
+
+4.重启，选择系统是按1进入xen
+
+Reset, press 1 in system choose window

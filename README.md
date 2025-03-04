@@ -16,6 +16,11 @@
 
  Current status: Try to fix issues of threadX demo.(20250221)
 
+ 测试：上传了可用于评估的demo。
+
+ Test: Upload a demo for evaluating.
+
+
  问题列表：
  
  1、wdt、qspi启动报错

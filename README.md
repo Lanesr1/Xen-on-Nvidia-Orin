@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：60%
+ 进度：70%
  
- Progress: 60%
+ Progress: 70%
 
- 近况：编译了一个threadX的demo，但xen-tools似乎工作不正常。(20250221)
+ 近况：尝试解决threadX demo的一些错误信息。(20250324)
 
- Current status: A demo of threadX was compiled, but xen-tools doesn't seem to be working properly.(20250221)
+ Current status: Try to fix issues of threadX demo.(20250221)
 
  问题列表：
  
@@ -116,3 +116,9 @@ Eleventh step: Fixed pcie issuse, nvme ssd and wifi are working.
 Twelfth step: Fixed dom0_max_vcpus number issue.
 
 ![本地路径](./pic/12.png) 
+
+第十三步：配置好xen tools，编译了threadX的demo，看起来能够运行。
+
+Thirteenth: Xen tools is working well. Compiled a threadX demo and it seems work.
+
+![本地路径](./pic/13.png) 

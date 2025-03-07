@@ -12,9 +12,9 @@
  
  Progress: 70%
 
- 近况：尝试解决threadX demo的一些错误信息。(20250324)
+ 近况：尝试解决threadX的timer问题。(20250307)
 
- Current status: Try to fix issues of threadX demo.(20250221)
+ Current status: Try to fix issue of threadX‘s timer.(20250307)
 
  测试：上传了可用于评估的demo。
 
@@ -39,6 +39,8 @@
 
  8、cpufreq未工作
 
+ 9、threadX的timer和interrupt未工作
+
  Isuses list:
  1. wdt and qspi report error when system is starting up.
  2. ~~eth0 initialization failed.~~
@@ -48,6 +50,7 @@
  6. ~~pcie(include nvme and wifi) reports error.~~
  7. temperature sensors are not found
  8. cpufreq doesn't work
+ 9. timer and interrupt of threadX are not working
 
 
 第一步：未知位置反复重启。

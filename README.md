@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：70%
+ 进度：75%
  
- Progress: 70%
+ Progress: 75%
 
- 近况：尝试解决threadX的timer问题。(20250307)
+ 近况：解决了timer的问题，正在解决中断的问题。(20250324)
 
- Current status: Try to fix issue of threadX‘s timer.(20250307)
+ Current status: Fixed issue of timer and try to fix issue of interrupt.(20250324)
 
  测试：上传了可用于评估的demo。
 

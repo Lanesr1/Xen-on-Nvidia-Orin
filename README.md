@@ -12,9 +12,9 @@
  
  Progress: 75%
 
- 近况：解决了timer的问题，正在解决中断的问题。(20250324)
+ 近况：解决了风扇转速和部分传感器的问题。(20250418)
 
- Current status: Fixed issue of timer and try to fix issue of interrupt.(20250324)
+ Current status: Fixed issue of pwm-fan and some sensors.(20250418)
 
  测试：上传了可用于评估的demo。
 

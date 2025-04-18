@@ -1,3 +1,7 @@
+0.用sdkmanager安装35.6版本的系统
+
+Install Jetson Linux 35.6.0 with sdkmanager.
+
 1.在/boot目录下建立一个新的文件夹xen1
 
 cd /boot

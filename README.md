@@ -14,7 +14,7 @@
 
  近况：解决了风扇转速和部分传感器的问题。(20250418)
 
- Current status: Fixed issue of pwm-fan and some sensors.(20250418)
+ Current status: Fixed issues of pwm-fan and some sensors.(20250418)
 
  测试：上传了可用于评估的demo。
 
@@ -35,7 +35,7 @@
 
  ~~6、pcie(包括nvme和wifi)报错~~
 
- 7、温度传感器缺失
+ ~~7、温度传感器缺失~~
 
  8、cpufreq未工作
 
@@ -48,7 +48,7 @@
  4. ~~GPU can't be opened.~~
  5. ~~tegra-cache will report error when I set xen's dom0_max_vcpus more than one. ~~
  6. ~~pcie(include nvme and wifi) reports error.~~
- 7. temperature sensors are not found
+ 7. ~~temperature sensors are not found~~
  8. cpufreq doesn't work
  9. timer and interrupt of threadX are not working
 

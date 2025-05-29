@@ -8,13 +8,13 @@
  
  Hardware platform: Nvidia AGX Orin 32GB
 
- 进度：75%
+ 进度：80%
  
- Progress: 75%
+ Progress: 80%
 
- 近况：解决了风扇转速和部分传感器的问题。(20250418)
+ 近况：实现了domU zephyr rtos周期任务的功能。继续解决threadX的vtimer问题。(20250529)
 
- Current status: Fixed issues of pwm-fan and some sensors.(20250418)
+ Current status: The function of domU zephyr rtos periodic task is implemented. Keep working on vtimer issue of threadX.(20250529)
 
  测试：上传了可用于评估的demo。
 
@@ -55,78 +55,84 @@
 
 第一步：未知位置反复重启。
 
-First step: Board resets in unknown position repeatly. 
+Step 1: Board resets in unknown position repeatly. 
 
 ![本地路径](./pic/1.png) 
 
 第二步：Xen正常启动，dom0已加载，内核未启动。
 
-Second step: Xen boots normally, dom0 has been loaded, but kernel didn't startup. 
+Step 2: Xen boots normally, dom0 has been loaded, but kernel didn't startup. 
 
 ![本地路径](./pic/2.png) 
 
 第三步：内核已启动，途中报错，开始慢慢排错。
 
-Third step: Kernel has started and some errors showup. Dealing with that slowly.
+Step 3: Kernel has started and some errors showup. Dealing with that slowly.
  
 ![本地路径](./pic/3.png) 
 
 第四步：继续向下走了1s多。
 
-Fourth step: Go on for one more sec.
+Step 4: Go on for one more sec.
 
 ![本地路径](./pic/4.png) 
 
 第五步：修复了前面的一些问题。
 
-Fifth step: Fixed some previous issues. 
+Step 5: Fixed some previous issues. 
 
 ![本地路径](./pic/5.png) 
 
 第六步：屏蔽了一些东西。
 
-Sixth step: Turn off something.
+Step 6: Turn off something.
 
 ![本地路径](./pic/6.png) 
 
 第七步：终于识别了EMMC，并启动了Ubuntu。
 
-Seventh step: Finally found EMMC and started up Ubuntu.
+Step 7: Finally found EMMC and started up Ubuntu.
 
 ![本地路径](./pic/7.png) 
 
 第八步：系统工作正常，但还有一些问题。
 
-Eighth step: System works well, but there are some isuses.
+Step 8: System works well, but there are some isuses.
 
 ![本地路径](./pic/8.png) 
 
 第九步：解决了网卡问题，GPU也已经识别到。
 
-Ninth step: Fixed ethernet isuse. GPU could be found.
+Step 9: Fixed ethernet isuse. GPU could be found.
 
 ![本地路径](./pic/9.png) 
 
 第十步：安装了Jetpack，并测试了mnistCUDNN和sample_cudla例程
 
-Tenth step: Installed Jetpack. Tested mnistCUDNN and sample_cudla demos.
+Step 10: Installed Jetpack. Tested mnistCUDNN and sample_cudla demos.
 
 ![本地路径](./pic/10.png) 
 
 第十一步：修复pcie问题，nvme ssd和wifi均正常。
 
-Eleventh step: Fixed pcie issuse, nvme ssd and wifi are working.
+Step 11: Fixed pcie issuse, nvme ssd and wifi are working.
 
 ![本地路径](./pic/11.png) 
 
 第十二步：修复dom0_max_vcpus数量设置问题。
 
-Twelfth step: Fixed dom0_max_vcpus number issue.
+Step 12: Fixed dom0_max_vcpus number issue.
 
 ![本地路径](./pic/12.png) 
 
 第十三步：配置好xen tools，编译了threadX的demo，看起来能够运行。
 
-Thirteenth: Xen tools is working well. Compiled a threadX demo and it seems work.
+Step 13: Xen tools is working well. Compiled a threadX demo and it seems work.
 
 ![本地路径](./pic/13.png) 
+
+第十四步：成功运行了domU的zephyr rtos，并实现了周期任务。
+
+Step 14: Successfully run domU's zephyr rtos and the periodic task.
+
+![本地路径](./pic/14.png) 
